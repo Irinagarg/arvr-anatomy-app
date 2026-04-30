@@ -52,30 +52,25 @@ export default function Demo() {
       </div>
 
       {/* 🔥 CTA */}
-      <div className="mt-16 text-center space-y-4">
+       <div className="mt-16 text-center space-y-4">
 
-        <button className="px-8 py-3 bg-cyan-500 text-black rounded-xl 
-                           font-semibold hover:bg-cyan-400 transition">
-          🚀 Launch Experience
-        </button>
+  {/* ✅ Download Button */}
+  <a
+    href="https://github.com/Irinagarg/arvr-anatomy-app"
+    target="_blank"
+    className="inline-block px-8 py-3 bg-cyan-500 text-black rounded-xl 
+               font-semibold hover:bg-cyan-400 transition"
+  >
+    📥 Download App from GitHub
+  </a>
 
-        {/* ✅ Download Button */}
-        <a
-          href="https://github.com/Irinagarg/arvr-anatomy-app"
-          target="_blank"
-          className="inline-block px-8 py-3 bg-cyan-500 text-black rounded-xl 
-                     font-semibold hover:bg-cyan-400 transition"
-        >
-          📥 Download App from GitHub
-        </a>
+  {/* Instructions */}
+  <p className="text-gray-400 text-sm max-w-xl mx-auto">
+    To install the app, open the GitHub repository and download the APK file 
+    from the repository. Follow the instructions in the README.
+  </p>
 
-        {/* Instructions */}
-        <p className="text-gray-400 text-sm max-w-xl mx-auto">
-          To install the app, open the GitHub repository and download the APK file 
-          from the repository. Follow the instructions in the README.
-        </p>
-
-      </div>
+</div>
 
     </div>
   );
