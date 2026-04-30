@@ -51,28 +51,27 @@ export default function Demo() {
         ))}
 
       </div>
+ <div className="mt-20 text-center space-y-4">
 
-      {/* 🔥 CTA */}
-      <div className="mt-20 text-center space-y-4">
+  {/* Download Button */}
+  <a
+    href="https://github.com/tana0420/out-of-scope"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-8 py-3 bg-cyan-500 text-black rounded-xl 
+               font-semibold hover:bg-cyan-400 hover:scale-105 
+               transition duration-300"
+  >
+    📥 Download App from GitHub
+  </a>
 
-        {/* Download Button */}
-        <a
-          href="https://github.com/Irinagarg/arvr-anatomy-app"
-          target="_blank"
-          className="inline-block px-8 py-3 bg-cyan-500 text-black rounded-xl 
-                     font-semibold hover:bg-cyan-400 hover:scale-105 
-                     transition duration-300"
-        >
-          📥 Download App from GitHub
-        </a>
+  {/* Instructions */}
+  <p className="text-gray-400 text-sm max-w-xl mx-auto leading-relaxed">
+    To install the app, open the GitHub repository and download the APK file. 
+    Then follow the instructions in the README to install it on your device.
+  </p>
 
-        {/* Instructions */}
-        <p className="text-gray-400 text-sm max-w-xl mx-auto leading-relaxed">
-          To install the app, open the GitHub repository and download the APK file. 
-          Then follow the instructions in the README to install it on your device.
-        </p>
-
-      </div>
+</div>
 
     </div>
   );
